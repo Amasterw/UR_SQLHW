@@ -1,5 +1,8 @@
 # SQL Homework - Employee Database: A Mystery in Two Parts
 
+I created the necessary schema and imported the necessasry csv files with little use of the primary and foreign key function. I also created a variety of tables to answer the different questions, 
+elimanting the need to have various query data files saved. Each questions has an answering table, which I have listed. 
+
 ![sql.png](sql.png)
 
 ## Background
@@ -45,21 +48,21 @@ Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool li
 
 Once you have a complete database, do the following:
 
-1. List the following details of each employee: employee number, last name, first name, sex, and salary.
+1. List the following details of each employee: employee number, last name, first name, sex, and salary. Table emp_info
 
-2. List first name, last name, and hire date for employees who were hired in 1986.
+2. List first name, last name, and hire date for employees who were hired in 1986. Table emp_1986
 
-3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
+3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name. Table mang_info
 
-4. List the department of each employee with the following information: employee number, last name, first name, and department name.
+4. List the department of each employee with the following information: employee number, last name, first name, and department name. Table deptm_ee_info
 
-5. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
+5. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B." Table EE_hb
 
-6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
+6. List all employees in the Sales department, including their employee number, last name, first name, and department name. Table dept_sales
 
-7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
+7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name. Table dept-sales_dev
 
-8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name. Table employee_lastname
 
 ## Bonus (Optional)
 
