@@ -1,7 +1,7 @@
 # SQL Homework - Employee Database: A Mystery in Two Parts
 
 I created the necessary schema and imported the necessasry csv files with little use of the primary and foreign key function. I also created a variety of tables to answer the different questions, 
-elimanting the need to have various query data files saved. Each questions has an answering table, which I have listed. 
+eliminating the need to have various query data files saved. Each questions has an answering table, which I have listed. 
 
 ![sql.png](sql.png)
 
